@@ -1,0 +1,81 @@
+<?php
+/**
+ * Template Part: Section 3
+ * Recebe via $args:
+ *  - 'titulo_pequeno'
+ *  - 'titulo_grande'
+ */
+$args = wp_parse_args( $args, [
+  'titulo_pequeno' => 'os números comprovam',
+  'titulo_grande'  => 'Influenciador virtual traz resultados concretos para grandes marcas',
+] );
+?>
+        <main class="box-main-container">
+            <section class="box-container">
+                <div class="box-text-container">
+                    <h5>os números comprovam</h5>
+                    <h2>Influenciador virtual traz resultados concretos para
+                        grandes marcas</h2>
+                </div>
+                <section class="box-infor-container">
+                    <article class="box-infor">
+                        <div class="infor">
+                            <h1>4x</h1>
+                            <div class="sub-infor">
+                                <h5>
+                                    <strong>mais seguidores <br>
+                                        e interatividade</h5></strong>
+                                <h6>
+                                    em comparação a ações feitas <br>
+                                    por influenciador convencional
+                                </h6>
+                            </div>
+
+                        </div>
+                    </article>
+                    <article class="box-infor">
+                        <div class="infor">
+                            <h1>10 bi</h1>
+                            <div class="sub-infor">
+                                <h5><strong>
+                                        de reais movimentados <br>
+                                        no mercado global
+                                    </strong></h5>
+                                <h6>o segmento de personas virtuais <br> só tende
+                                    a crescer no mundo</h6>
+                            </div>
+
+                        </div>
+                    </article>
+                    <article class="box-infor">
+                       <div class="infor">
+                            <h1>2º lugar</h1>
+                            <div class="sub-infor">
+                                <h5><strong>
+                                        no ranking mundial de <br> 
+                                        audiência é do Brasil
+                                    </strong></h5>
+                                <h6>o engajamento com avatares 3D <br>
+                                    só é maior nos Estados Unidos</h6>
+                            </div>
+
+                        </div>
+                        </div>
+                    </article>
+                    <article class="box-infor">
+                        <div class="infor">
+                            <h1>24h</h1>
+                            <div class="sub-infor">
+                                <h5><strong>em contato direto <br>
+                                        com o consumidor </strong></h5>
+                                <h6>sem o risco de expor atitudes que  <br>
+                                    não combinem com a marca </h6>
+                            </div>
+
+                        </div>
+                    </article>
+                </section>
+            </section>
+        </main>
+    </body>
+</html>
