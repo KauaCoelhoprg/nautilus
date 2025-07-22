@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;700&family=Prompt:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.box-title {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 100vw;
+}
+
+.box-title p {
+    font-family: "Mukta", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    color: #E33F3F;
+}
+
+.box-title h1 {
+    font-family: "Prompt", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #404044;
+}
+
+.box-imgs {
+    margin-top: 15px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 1;
+}
+
+.box-texts-imgs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.box-texts-imgs h2 {
+    font-family: "Prompt", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 100%;
+    color: #404044;
+}
+.box-texts-imgs p {
+    text-align: center;
+    font-family: "Catamaran", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #777777;
+}
+.box-texts-imgs span {
+    text-align: center;
+    font-family: "Catamaran", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 150%;
+    color: #404044;
+}
+.vector-background{
+    background: url(../images/sect6-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100vw;
+}

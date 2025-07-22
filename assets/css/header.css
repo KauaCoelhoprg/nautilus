@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;700&family=Prompt:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-main {
+    position: relative;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: #e33f40;
+    border-bottom-left-radius: 8%;
+}
+
+.geometric-box {
+    background: url(../images/bitmap.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+}
+
+.logo-header {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.box-header {
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.logo-box img {
+    position: absolute;
+    left: 120px;
+    width: 150px;
+    height: 120px;
+    z-index: 2;
+}
+
+.box-boneca img {
+    position: absolute;
+    top: 0;
+    left: -150px;
+    width: 55vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+.menu-box ul {
+    display: flex;
+    justify-content: start;
+    gap: 25px;
+    align-items: center;
+    width: 60vw;
+    height: 50px;
+    margin: 35px;
+}
+
+.menu-box li {
+    font-family: "Prompt", sans-serif;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.box-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 60vw;
+    height: 70vh;
+}
+
+.box-principal p {
+    font-family: "Mukta", sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.box-principal h5 {
+    font-family: "Mukta", sans-serif;
+    color: white;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.box-principal h1 {
+    font-family: "Prompt", sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    letter-spacing: 0%;
+}
+
+.box-principal button {
+    font-family: "Prompt", sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    display: flex;
+    width: 197px;
+    height: 50px;
+    top: 393px;
+    left: 628px;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.imgs-box {
+    display: flex;
+    gap: 10px;
+}
+
+.imgs-box p {
+    font-family: "Catamaran", sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+@media screen and (max-width: 600px) {
+    .container-main {
+    display: flex;
+    height: 120vh;
+    width: 120vw;
+    background-color: #e33f40;
+    border-bottom-left-radius: 8%;
+}
+    .logo-box img {
+    position: absolute;
+    left: 45px;
+    width: 80px;
+    height: 60px;
+    z-index: 2;
+}
+.box-boneca img {
+    position: absolute;
+    top: 0;
+    left: -150px;
+    width: 25vw;
+    height: 50vh;
+    z-index: 1;
+}
+.menu-box ul {
+  list-style: inside;
+  padding: 0;
+  margin: 0;
+  column-count: 2;
+  column-gap: 10px;
+  right: -100px;
+
+}
+
+.menu-box li {
+    font-family: "Prompt", sans-serif;
+    color: white;
+    font-size: 6px;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 400;
+
+}
+
+.box-principal p {
+    font-family: "Mukta", sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 28px;
+}
+
+.box-principal h5 {
+    font-family: "Mukta", sans-serif;
+    font-size: 10px;
+    color: white;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.box-principal h1 {
+    font-family: "Prompt", sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.box-principal button {
+    font-family: "Prompt", sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    display: flex;
+    width: 80px;
+    height: 25px;
+    top: 393px;
+    left: 628px;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 8px;
+}
+.imgs-box {
+    display: flex;
+    gap: 10px;
+}
+.imgs-box img{
+    width: 100px;
+    height: 25px;
+}
+
+
+}

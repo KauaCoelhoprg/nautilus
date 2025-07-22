@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;700&family=Prompt:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box-container{
+    display: flex;
+    flex-direction: column;
+}
+.box-text{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.box-text p{
+    font-family:"Mukta",sans-serif ;
+    font-weight:400;
+    font-size:18px ;
+    line-height: 40px;
+    color:#E33F3F ;
+}
+.box-text h1{
+    font-family:"Prompt",sans-serif ;
+    font-weight:700;
+    font-size:32px ;
+    line-height: 38px;
+    color:#404044 ;
+}
+.box-imgs-container{
+    display: flex;
+    justify-content: center;
+
+}
+.box-imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-text-imgs{
+    display: flex;
+    flex-direction: column;
+}
+.box-text-imgs h1{
+    font-family:"Prompt",sans-serif ;
+    font-weight:700;
+    font-size: 24px;
+    color:#404044 ;
+    line-height:100%;
+}
+.column-texts{
+    display: flex;
+    flex-direction: column;
+}
+.individual-box-text{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.individual-box-text p{
+    font-family: "Catamaran",sans-serif;
+    font-weight:400 ;
+    font-size: 16px;
+    line-height: 300%;
+    color:#777777 ;
+    margin: 5px;
+}
+
+/* Estilos base (já fornecidos por você) */
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .box-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .box-img img {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+  }
+
+  .box-text h1 {
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+  }
+
+  .box-text p {
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .four-box-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    width: 100%;
+  }
+
+  .boxes-info {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .box-text h1 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .box-text p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .four-box-container {
+    grid-template-columns: 1fr;
+  }
+}

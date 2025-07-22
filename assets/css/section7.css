@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;700&family=Prompt:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.box-text {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-title {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.box-title h6 {
+    margin-top: 40px;
+    font-family: "Mukta", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    color: #E33F3F;
+}
+
+.box-title h1 {
+    font-family: "Prompt", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #494949;
+}
+
+.box-title p {
+    font-family: "Catamaran", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+    color: #777777;
+}
+
+.texts-box-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.individual-box-text {
+    display: flex;
+    justify-content: start;
+    align-items:center;
+    gap: 15px;
+}
+.texts-box-container {
+    margin: 15px 0 15px 0;
+}
+.texts-box-container h1 {
+    font-family: "Prompt", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    color: #404044;
+}
+
+.texts-box-container p {
+    font-family: "Catamaran", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #777777;
+}
+
+.box-img img {
+    width: 646px;
+    height: 516px;
+}

@@ -1,0 +1,164 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;700&family=Prompt:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+
+.box-container {
+   background-color: #F9F9F9;
+   display: flex;
+   height: 110vh;
+   width: 100vw;
+   flex-direction: column;
+   align-items: center;
+}
+
+
+.box-title {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   margin: 25px;
+}
+
+
+.box-title h6 {
+   font-family: "Mukta", sans-serif;
+   font-weight: 400;
+   font-size: 18px;
+   color: #E33F3F;
+}
+
+
+.box-title h1 {
+   font-family: "Prompt", sans-serif;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 38px;
+   color: #404044;
+}
+
+
+.box-title p {
+   font-family: "Catamaran", sans-serif;
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 150%;
+   color: #636363;
+}
+
+
+.box-legends {
+   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+
+.box-persons {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.box-persons img {
+   width: 174px;
+   height: 166px;
+   top: 307px;
+   left: 328px;
+}
+
+
+.box-text1 p{
+   text-align: center;
+   font-family: "Catamaran", sans-serif;
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 22px;
+   color: #636363;
+}
+.box-text1 span{
+   text-align: center;
+   font-family: "Catamaran", sans-serif;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 22px;
+   color: #404044;
+}
+.box-text2{
+   background:url(../images/“.svg) ;
+   background-repeat: no-repeat;
+   font-family: "Catamaran",sans-serif;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 150%;
+   color: #404044;
+   margin-top: 10px;
+   text-align: center;
+   padding-top: 25px;
+}
+/* RESPONSIVE — ajuste para empilhar blocos em mobile */
+
+/* Celulares grandes */
+@media (max-width: 768px) {
+  .box-legends {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* espaçamento maior entre os blocos empilhados */
+  }
+
+  .box-persons {
+    width: 140px;
+  }
+
+  .box-persons img {
+    width: 140px;
+    height: auto;
+  }
+
+  .box-text1 p,
+  .box-text1 span {
+    font-size: 14px;
+  }
+
+  .box-text2 {
+    font-size: 18px;
+    width: 220px;
+  }
+}
+
+/* Celulares pequenos */
+@media (max-width: 480px) {
+  .box-legends {
+    gap: 15px;
+  }
+
+  .box-persons {
+    width: 120px;
+  }
+
+  .box-persons img {
+    width: 120px;
+  }
+
+  .box-text1 p,
+  .box-text1 span {
+    font-size: 12px;
+  }
+
+  .box-text2 {
+    font-size: 16px;
+    width: 180px;
+  }
+}

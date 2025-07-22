@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;700&family=Prompt:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box-container {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 50vw;
+}
+
+.box-img img {
+    width: 650px;
+    height: 400px;
+}
+.box-text{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.box-text h6 {
+    font-family: "Mukta", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    color: #E33F3F;
+}
+
+.box-text h1 {
+    font-family: "Prompt", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #404044;
+}
+
+.box-text p {
+    font-family: "Catamaran", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+    color: #727272;
+}
+
+.four-box-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.boxes-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 285px;
+    height: 90px;
+    top: 242px;
+    left: 765px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    gap: 25px;
+
+}
+.boxes-info p{
+    font-family: "Prompt",sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    color: #404044;
+
+}
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    background-color: #DCF2ED;
+
+}
